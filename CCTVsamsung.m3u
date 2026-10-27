@@ -1,0 +1,101 @@
+﻿#EXTM3U name="央视全套节目与精选直播(电视专用)"
+
+# ========================================================
+# 第一部分：核心体育频道 (指向局域网电脑代理 192.168.1.166)
+# ========================================================
+
+#EXTINF:-1 tvg-id="CCTV5" group-title="央视体育(代理)",CCTV-5 体育超清 (局域网代理)
+http://192.168.1.166:35455/cctv5hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV5P" group-title="央视体育(代理)",CCTV-5+ 体育赛事高清 (局域网代理)
+http://192.168.1.166:35455/cctv5plus.m3u8
+
+#EXTINF:-1 tvg-id="CCTV16" group-title="央视体育(代理)",CCTV-16 奥林匹克超清 (局域网代理)
+http://192.168.1.166:35455/cctv16hd.m3u8
+
+# ========================================================
+# 第二部分：普通央视频道 (免代理·公网直连)
+# ========================================================
+
+#EXTINF:-1 tvg-id="CCTV1" group-title="央视综合(直连)",CCTV-1 综合高清
+http://74.91.26.218:82/live/cctv1hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV2" group-title="央视综合(直连)",CCTV-2 财经高清
+http://74.91.26.218:82/live/cctv2hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV3" group-title="央视综合(直连)",CCTV-3 综艺高清
+http://74.91.26.218:82/live/cctv3hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV4" group-title="央视综合(直连)",CCTV-4 中文国际高清
+http://74.91.26.218:82/live/cctv4hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV6" group-title="央视综合(直连)",CCTV-6 电影高清
+http://74.91.26.218:82/live/cctv6hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV7" group-title="央视综合(直连)",CCTV-7 国防军事高清
+http://74.91.26.218:82/live/cctv7hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV8" group-title="央视综合(直连)",CCTV-8 电视剧高清
+http://74.91.26.218:82/live/cctv8hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV9" group-title="央视综合(直连)",CCTV-9 纪录高清
+http://74.91.26.218:82/live/cctv9hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV10" group-title="央视综合(直连)",CCTV-10 科教高清
+http://74.91.26.218:82/live/cctv10hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV11" group-title="央视综合(直连)",CCTV-11 戏曲高清
+http://74.91.26.218:82/live/cctv11hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV12" group-title="央视综合(直连)",CCTV-12 社会与法高清
+http://74.91.26.218:82/live/cctv12hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV13" group-title="央视综合(直连)",CCTV-13 新闻高清
+http://74.91.26.218:82/live/cctv13hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV14" group-title="央视综合(直连)",CCTV-14 少儿高清
+http://74.91.26.218:82/live/cctv14hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV15" group-title="央视综合(直连)",CCTV-15 音乐高清
+http://74.91.26.218:82/live/cctv15hd.m3u8
+
+#EXTINF:-1 tvg-id="CCTV17" group-title="央视综合(直连)",CCTV-17 农业农村高清
+http://74.91.26.218:82/live/cctv17hd.m3u8
+
+# ========================================================
+# 第三部分：央视特色专线 (体育·影视·纪录片·公网直连)
+# ========================================================
+
+#EXTINF:-1 tvg-id="CCTVStormFootball" group-title="央视专线(直连)",央视风云足球 (1080P 超清专线)
+http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
+
+#EXTINF:-1 tvg-id="CCTVGolfTennis" group-title="央视专线(直连)",央视高尔夫·网球 (1080P)
+http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
+
+#EXTINF:-1 tvg-id="CCTVBilliards" group-title="央视专线(直连)",央视台球 (1080P)
+http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
+
+#EXTINF:-1 tvg-id="CCTVWeaponTech" group-title="央视专线(直连)",央视兵器科技 (1080P)
+http://38.75.136.137:98/gslb/dsdqpub/gfjs.m3u8?auth=testpub
+
+#EXTINF:-1 tvg-id="CCTVTheFirstTheater" group-title="央视专线(直连)",央视第一剧场 (1080P)
+http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
+
+#EXTINF:-1 tvg-id="CCTVWorldGeography" group-title="央视专线(直连)",央视世界地理 (1080P)
+http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
+
+# ========================================================
+# 第四部分：精选卫视与海外体育 (免代理·官方直连)
+# ========================================================
+
+#EXTINF:-1 tvg-id="ZhejiangTV" group-title="卫视与海外(直连)",浙江卫视国际频道 (1080P 官方直链)
+https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
+
+#EXTINF:-1 tvg-id="GuangdongTV" group-title="卫视与海外(直连)",广东卫视高清 (海外直连)
+https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
+
+#EXTINF:-1 tvg-id="Teledeporte" group-title="卫视与海外(直连)",Teledeporte (西班牙国家广播体育台·官方)
+https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8
+
+#EXTINF:-1 tvg-id="RealMadridTV" group-title="卫视与海外(直连)",Real Madrid TV (皇家马德里官方台 1080P)
+https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
