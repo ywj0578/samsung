@@ -94,8 +94,3 @@ https://ali-m-l.cztv.com/channels/lantian/channel10/1080p.m3u8
 #EXTINF:-1 tvg-id="GuangdongTV" group-title="卫视与海外(直连)",广东卫视高清 (海外直连)
 https://h5cul1yar48um3t.wcetv.com/hls/gdsatellite.m3u8
 
-#EXTINF:-1 tvg-id="Teledeporte" group-title="卫视与海外(直连)",Teledeporte (西班牙国家广播体育台·官方)
-https://rtve01p.origin.c21livecloud.com/live-origin/tdp-hls/bitrate_1.m3u8
-
-#EXTINF:-1 tvg-id="RealMadridTV" group-title="卫视与海外(直连)",Real Madrid TV (皇家马德里官方台 1080P)
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
